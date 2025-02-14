@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="/resources/styles/style.css">
+        <title>Google</title>
+    </head>
+    <body>
+
+        <header class="d-flex gap-0 align-items-center p-3">
+            <div class="d-flex justify-content-end align-items-center">
+                <a href="#">Gmail</a>
+                <a href="#">Imagens</a>
+                <a href="/app/login.html"><button class="btn btn-primary">Login</button></a>
+            </div>
+        </header>
+
+        <main class="d-flex flex-column gap-1">
+            <div class="d-flex justify-content-center">
+                <a href="google.com"><img class="google-img" src="/resources/images/google.png" alt="#"></a>
+            </div>
+        
+            <div class="input-group mb-3 text-center d-flex justify-content-center g-put">
+                <span class="input-group-text" id="Search-icon"><i class='bx bx-search'></i></span>
+                <input type="text" class="google-input" aria-describedby="Search-icon">
+            </div>
+        
+            <div class="button text-center">
+                <button class="bten" id="search-google">Pesquisa Google</button>
+                <button class="bten" id="lucky-search">Estou com sorte</button>
+            </div>
+        
+            <div id="search-results" class="mt-4 text-center">
+                <ul id="results-list"></ul>
+            </div>
+        </main>   
+
+        <footer class="footer fixed-bottom">
+            <p class="p-footer" style="color: black;">Brasil</p>
+            <hr>
+            <p class="a-footer"><a href="" class="a-foot" style="color: black;">Sobre</a> <a href="" class="a-foot" style="color: black;">Publicidade</a> <a href="" class="a-foot" style="color: black;">Negócios</a> <a href="" class="a-foot" style="color: black;">Como funciona a pesquisa</a></p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        <script src="/resources/scripts/index.js"></script>
+    </body>
+</html>

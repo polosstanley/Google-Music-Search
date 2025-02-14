@@ -1,0 +1,129 @@
+/* Geral */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Efeito de Fade-In */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Login Container */
+.login-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #5f6368;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+    display: block;
+    color: #5f6368;
+}
+
+input.form-control {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button.btn-submit {
+    width: 100%;
+    padding: 1rem;
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+button.btn-submit:hover {
+    background-color: #1667c1;
+}
+
+.forgot-password a {
+    font-size: 14px;
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+/* Divider and text */
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.divider hr {
+    flex: 1;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+.divider span {
+    margin: 0 10px;
+    font-size: 14px;
+    color: #5f6368;
+}
+
+.create-account a {
+    font-size: 14px;
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.create-account a:hover {
+    text-decoration: underline;
+}
+
+/* Logo Google */
+.google-logo {
+    width: 120px;
+    margin-bottom: 1.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
