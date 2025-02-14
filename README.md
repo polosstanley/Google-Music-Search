@@ -10,7 +10,7 @@
 
 # Framework utilizado: Bootstrap - https://getbootstrap.com/
 
-# Link para o site em produção:
+# Link para o site em produção: https://polosstanley.github.io/
 
 # Checklist:
 
