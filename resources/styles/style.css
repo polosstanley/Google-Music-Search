@@ -19,9 +19,9 @@ header .d-flex {
 
 header a {
     color: black;
-    font-size: 14px;
+    font-size: .875rem;
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 1.25rem;
 }
 
 /* Estilo para o botão de Login, com bordas arredondadas */
@@ -30,8 +30,8 @@ header a {
     border-color: #1a73e8 !important;
     color: white !important;  /* Texto em branco */
     padding: 0.4rem 2rem;  /* Ajuste do padding para dar mais espaço horizontal */
-    border-radius: 30px !important;  /* Borda arredondada, mais parecida com o Google */
-    font-size: 14px;  /* Tamanho da fonte ajustado */
+    border-radius: 1.875rem !important;  /* Borda arredondada, mais parecida com o Google */
+    font-size: .875rem;  /* Tamanho da fonte ajustado */
 }
 
 .btn-primary:hover {
@@ -49,16 +49,16 @@ header a {
 /* Barra de pesquisa */
 .google-input {
     outline: none;
-    border: 1px solid #c9c9c9;
+    border: .0625rem solid #c9c9c9;
     width: 34rem;
-    border-radius: 50px;
+    border-radius: 3.125rem;
     padding: 0.5rem 0;
     border-left-style: none;
-    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.1); /* Adicionando sombra */
+    box-shadow: .3125rem .25rem .625rem rgba(0, 0, 0, 0.1); /* Adicionando sombra */
 }
 
 .input-group-text {
-    border-radius: 50px;
+    border-radius: 3.125rem;
     background-color: #fff;
     border-right-style: none;
     color: #9c9c9c;
@@ -71,17 +71,17 @@ header a {
     padding: 0.4rem 1rem;
     background-color: #f8f9fa;
     color: #272140;
-    border-radius: 4px;
-    font-size: 14px;
+    border-radius: .25rem;
+    font-size: .875rem;
 }
 
 .bten:hover {
-    border: 1px solid #c9c9c9;
+    border: .0625rem solid #c9c9c9;
 }
 
 .goi {
     margin-top: 1rem;
-    font-size: 14px !important;
+    font-size: .875rem !important;
 }
 
 .goi-a {
@@ -98,13 +98,13 @@ header a {
 /* Rodapé */
 .footer {
     background-color: #f2f2f2;
-    font-size: 14px;
+    font-size: .875rem;
     color: #6f6f99;
 }
 
 .p-footer {
     margin-top: 0.6rem;
-    margin-bottom: -4px;
+    margin-bottom: -0.25rem;
     margin-left: 1.5rem;
 }
 
@@ -125,31 +125,31 @@ header a {
 #results-list .card {
     width: 100%;
     height: 100%;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    border: .0625rem solid #ddd;
+    border-radius: .5rem;
     overflow: hidden;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0rem .25rem .375rem rgba(0, 0, 0, 0.1);
 }
 
 #results-list .card img {
     width: 100%;
-    height: 200px;
+    height: 12.5rem;
     object-fit: cover;
 }
 
 #results-list .card-body {
-    padding: 15px;
+    padding: .9375rem;
     text-align: center;
 }
 
 #results-list .card-title {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 #results-list .card-text {
-    font-size: 14px;
+    font-size: 0.875rem;
     margin-bottom: 10px;
 }
 
